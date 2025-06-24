@@ -1,0 +1,7 @@
+sample_metadata: "data/samples.tsv"
+bam_merge_config:
+    demo_s2: ["demo_S2_tandem_R1_1", "demo_S2_tandem_R1_2", "demo_S2_tandem_R2_1", "demo_S2_tandem_R2_2"]
+process_footprints:
+    wobble_1_min_fp_10:
+        wobble_gap: 1
+        min_fp_len: 10
