@@ -16,6 +16,6 @@ mamba install -c bioconda snakemake=7.26 scanf trim-galore bedtools bismark samt
 ### Generate the BigBed file
 
 ```
-snakemake  --snakefile nome_seq_data_to_smf_bigbed.smk suppressed_merged/suppressed_merged_demo_s2_to_dm3_with_wobble_1_min_fp_10_and_mvec.bb --configfile configs/config.yaml -j4
+snakemake  --snakefile dsmf_data_to_dsmf_bigbed.smk suppressed_merged/suppressed_merged_demo_s2_to_dm3_with_wobble_1_min_fp_10_and_mvec.bb --configfile configs/config.yaml -j4
 
 ```
